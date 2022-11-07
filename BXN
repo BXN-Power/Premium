@@ -5,8 +5,5 @@ import requests
 
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from crack64 import majn
+    from Random64 import majn
     Main()
-elif bit == '32bit':
-    from crack import main
-    main()
